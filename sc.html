@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+<head>
+    <meta charset="utf8" />
+    <title>X Scraper</title>
+    <script src="app.js"></script>
+</head>
+
+<body style="background-color:#444;color:greenyellow;" onload=init();>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <div>
+                        <small>Make Index From:</small></br>
+                        <input id="makeIndexFrom" type="number" name="quantity" min="0" max="999999999" value="1"><br />
+                        
+                        <small>Make Index To:</small></br>
+                        <input id="makeIndexTo" type="number" name="quantity" min="0" max="999999999" value="117"><br />
+                       
+                        <small>Model Index From:</small></br>
+                        <input id="modelIndex" type="number" name="quantity" min="0" max="999999999" value="1"><br />
+                       
+                        <small>Start with Page #:</small></br>
+                        <input id="pageIndex" type="number" name="quantity" min="0" max="999999999" value="1"><br />
+
+                        <div style="width:100px;text-align: right;">
+                            <button id="btnStart" style="width:60px;margin-right:-11px;margin-top:3px;"
+                                onclick="btnStart()">Start</button>
+                        </div>
+                    </div>
+
+                </td>
+                <td style="padding-left:20px;">
+                    <div id='mainOutput'
+                        style="width:600px;height: 390px; background-color:dimgray;color:floralwhite;padding:5px;"">Scrape it!</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
