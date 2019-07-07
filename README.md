@@ -1,4 +1,4 @@
-# xscraper
+# X Scraper
 
 A PHP web scraper working with a european car dealer's website. 
 This code is presented only for a presentation, it's not meant to be used 'as is'. 
